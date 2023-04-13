@@ -41,3 +41,16 @@ temperature = 56
   } else {
     console.log("T-shirt today!")
   }
+
+  var numsArr = [1, 2, 3, 4, 5]
+for (let i = 0; i < numsArr.length; i++) {
+  numsArr[i] += 1
+  //The += operator is the same as saying numsArr[i] = numsArr[i] + 1
+}
+//After the for loop runs, numsArr will look like this: [2,3,4,5,6]
+console.log(numsArr)
+
+var namesArr = ['Andrew', 'Jonathan', 'Josh']
+var someNames = namesArr.slice(0, 2)
+var index = 0
+console.log(namesArr)
