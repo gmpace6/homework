@@ -53,4 +53,4 @@ console.log(numsArr)
 var namesArr = ['Andrew', 'Jonathan', 'Josh']
 var someNames = namesArr.slice(0, 2)
 var index = 0
-console.log(namesArr)
+console.log(someNames)
